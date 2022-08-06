@@ -14,6 +14,7 @@ const App = () => {
         <span onClick={() => dispatch(incNumber())}>Add +</span>
         <input type="text" name="" id="" value={state} />
         <span onClick={() => dispatch(dicNumber())}>Sub -</span>
+        <p onClick={() => dispatch(incNumber(5))}>Add +5</p>
       </div>
     </section>
   );
